@@ -1,6 +1,6 @@
-import { CardProps } from "@/interfaces";
+import { type CardProps } from "@/interfaces";
 
- const Card = ({ title, content }: CardProps) =>{
+ const Card = ({ title, content }: CardProps) => {
     return(
         <>
         <h1>{title}</h1>
@@ -10,4 +10,4 @@ import { CardProps } from "@/interfaces";
     )
  }
 
- export default Card
+ export default Card;

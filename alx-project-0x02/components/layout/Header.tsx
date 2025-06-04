@@ -12,7 +12,7 @@ export default function Header (){
         <Link href="/about">
          <span className="text-blue-500 underline"> About </span>
         </Link>
-        <Link href="/Posts">
+        <Link href="/posts">
          <span className="text-blue-500 underline">Posts</span>
         </Link>
         

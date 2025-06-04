@@ -1,10 +1,10 @@
 
+import Header from "@/components/layout/Header";
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import {useState} from "react"; 
 export default function Home (){
-
-
+  
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [posts, setPosts] = useState<{ title: string; content: string }[]>([]);
 
@@ -17,7 +17,7 @@ export default function Home (){
 
     return (
         <>
-        <h1>welcome to  Home page </h1>
+        <Header/>
          <Card title="Frontend Magic" content="This is a reusable card component!" />
          <button onClick={() => setIsModalOpen(true)}>Add Post</button>
 

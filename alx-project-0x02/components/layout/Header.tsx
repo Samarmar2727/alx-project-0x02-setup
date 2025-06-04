@@ -7,10 +7,13 @@ export default function Header (){
         <>
         <h1>welcome to  Home page </h1>
         <Link href="/home">
-            <span className="text-blue-500 underline">Go to home Page</span>
+            <span className="text-blue-500 underline"> Home </span>
             </Link>
         <Link href="/about">
-         <span className="text-blue-500 underline">Go to About Page</span>
+         <span className="text-blue-500 underline"> About </span>
+        </Link>
+        <Link href="/Posts">
+         <span className="text-blue-500 underline">Posts</span>
         </Link>
         
         </>
